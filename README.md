@@ -115,7 +115,7 @@ Example message:
 **Backend**
 - Django REST Framework  
 - JWT Auth + CORS + Swagger docs  
-- PostgreSQL / SQLite  
+- PostgreSQL  
 - Celery + Redis for async outreach  
 - Integration-ready webhooks for AmoCRM, Bitrix
 
@@ -134,3 +134,15 @@ cd backend
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+
+# Outreach service
+cd outreach
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+# Frontend
+cd frontend
+npm install
+npm run dev
+
+
