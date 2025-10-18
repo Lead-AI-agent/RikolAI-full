@@ -145,4 +145,69 @@ cd frontend
 npm install
 npm run dev
 
+```
+
+Then open **http://localhost:3000**
+
+1. Import your leads  
+2. Start **“Fashion Reactivation Campaign”**  
+3. Watch AI create personalized outreach flows in real time 👀  
+
+---
+
+## 📈 Market Potential
+
+- **$1.7 trillion** global fashion retail market  
+- **$80B+** e-commerce CRM and retention software segment  
+- Customer acquisition costs up **40–60%** since 2020  
+- Central Asia’s online fashion sector growing **18% YoY**  
+- **Uzbekistan:** 30,000+ fashion boutiques & online sellers using manual lead follow-ups  
+
+🎯 **Our goal:** help them convert dormant contacts into returning customers using **visual AI**.
+
+---
+
+## 🏆 Why We Stand Out
+
+- 🎯 **Niche focus:** we don’t target every business — only fashion.  
+- 💬 **Emotional AI:** outreach that *feels* human and personal.  
+- 🧥 **Visual personalization:** users see themselves in the product before buying.  
+- 📱 **CRM-agnostic integration:** works even if the CRM only has phone numbers.  
+- 🔄 **End-to-end system:** from lead import → AI styling → engagement → CRM update.
+
+---
+
+## 👥 Team
+
+| Name | Role | Focus |
+|------|------|--------|
+| **Muhammad Ermatov** | Tech Lead | Backend + AI Integration |
+| **[Teammate 2]** | Frontend Lead | UI/UX, dashboard, animations |
+| **[Teammate 3]** | Product / AI Prompt Engineer | Personalization logic, data mapping |
+
+---
+
+## ❤️ Vision
+
+We believe the future of fashion sales isn’t **discount-driven** — it’s **emotion-driven**.  
+Our mission is to make every customer feel personally noticed, valued, and styled.  
+
+**LeadCall AI** helps fashion brands speak to customers the way real stylists do —  
+with **empathy, taste, and timing**.
+
+---
+
+## ⚡ Live Services
+
+| URL | Description |
+|-----|--------------|
+| [https://leadcall.uz](https://leadcall.uz) | 🌐 Landing page |
+| [https://app.leadcall.uz](https://app.leadcall.uz) | 💻 Web dashboard |
+| [https://api.leadcall.uz](https://api.leadcall.uz) | 🔧 Backend API |
+| [https://api.leadcall.uz/docs](https://api.leadcall.uz/docs) | 📘 Swagger documentation |
+| [https://call.leadcall.uz](https://call.leadcall.uz) | 🤖 AI outreach & call service |
+
+---
+
+**Let’s make fashion communication feel human again. 👗✨**
 
