@@ -1,4 +1,4 @@
-# 👗 LeadCall AI — Fashion CRM Reactivation with Visual Personalization
+# 👗 Rikol AI — Fashion CRM Reactivation with Visual Personalization
 
 > “We don’t sell clothes — we **reconnect emotions** between people and style.”
 
@@ -17,7 +17,7 @@ They want to feel *seen* and *understood*, not just sold to.
 
 ### 💡 Our solution
 
-LeadCall AI brings **human-like personalization** to the fashion industry.  
+Rikol AI AI brings **human-like personalization** to the fashion industry.  
 Instead of sending the same message to everyone, our AI agent creates **visual, emotional, and personalized outreach** for every lead.
 
 For example:
@@ -181,9 +181,11 @@ Then open **http://localhost:3000**
 
 | Name | Role | Focus |
 |------|------|--------|
-| **Muhammad Ermatov** | Tech Lead | Backend + AI Integration |
-| **[Teammate 2]** | Frontend Lead | UI/UX, dashboard, animations |
-| **[Teammate 3]** | Product / AI Prompt Engineer | Personalization logic, data mapping |
+| **Muhammad Ermatov** | Tech Lead | Business analyst |
+| **Muhammadali Salohiddinov** | CEO | Startup and venture expert  |
+| **Otabek O'ktamov** | Frontend Engineer | UI/UX, dashboard, landing |
+| **Shahzod Abdashev** | Backend Engineer | Backend + AI integration |
+
 
 ---
 
@@ -192,7 +194,7 @@ Then open **http://localhost:3000**
 We believe the future of fashion sales isn’t **discount-driven** — it’s **emotion-driven**.  
 Our mission is to make every customer feel personally noticed, valued, and styled.  
 
-**LeadCall AI** helps fashion brands speak to customers the way real stylists do —  
+**Rikol AI** helps fashion brands speak to customers the way real stylists do —  
 with **empathy, taste, and timing**.
 
 ---
@@ -208,6 +210,3 @@ with **empathy, taste, and timing**.
 | [https://call.leadcall.uz](https://call.leadcall.uz) | 🤖 AI outreach & call service |
 
 ---
-
-**Let’s make fashion communication feel human again. 👗✨**
-
