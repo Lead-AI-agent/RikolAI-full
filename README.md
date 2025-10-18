@@ -55,8 +55,7 @@ That’s why our outreach isn’t about pushing discounts — it’s about **bui
 | Component | Description |
 |------------|--------------|
 | **Frontend (Next.js)** | Landing + Web Dashboard (`leadcall.uz`, `app.leadcall.uz`) |
-| **Backend (DRF)** | Core API for CRM integration (`api.leadcall.uz`, Swagger at `/docs`) |
-| **Outreach Service (FastAPI)** | Handles AI outreach calls & messaging (`call.leadcall.uz`) |
+| **Backend (FastAPI)** | Core API for CRM integration (`call.leadcall.uz`, Swagger at `/docs`) |
 | **AI Layer** | Generates personalized messages, outfit visualizations, and recommendations |
 
 ---
@@ -110,16 +109,12 @@ Example message:
 - Next.js 14 + TailwindCSS + Framer Motion  
 - shadcn/ui components  
 - Recharts (analytics)  
-- i18n (en/uz/ru)
 
 **Backend**
-- Django REST Framework  
-- JWT Auth + CORS + Swagger docs  
+- FastAPI microservice
+- CORS + Swagger docs  
 - PostgreSQL  
 - Celery + Redis for async outreach  
-- Integration-ready webhooks for AmoCRM, Bitrix
-
-**Outreach Service**
 - FastAPI microservice (`call.leadcall.uz`)  
 - Handles voice AI, message sending, and campaign execution  
 - Can scale horizontally for bulk outreach
@@ -205,8 +200,7 @@ with **empathy, taste, and timing**.
 |-----|--------------|
 | [https://leadcall.uz](https://leadcall.uz) | 🌐 Landing page |
 | [https://app.leadcall.uz](https://app.leadcall.uz) | 💻 Web dashboard |
-| [https://api.leadcall.uz](https://api.leadcall.uz) | 🔧 Backend API |
 | [https://api.leadcall.uz/docs](https://api.leadcall.uz/docs) | 📘 Swagger documentation |
-| [https://call.leadcall.uz](https://call.leadcall.uz) | 🤖 AI outreach & call service |
+| [https://call.leadcall.uz](https://call.leadcall.uz) | 🤖 Backend + AI outreach & call service |
 
 ---
