@@ -10,7 +10,7 @@ from datetime import datetime
 import uuid
 
 # Configuration
-GOOGLE_GEMINI_API_KEY = os.getenv('GOOGLE_GEMINI_API_KEY', 'AIzaSyDSvLr7dn-KyG7s5ynsxhmT24yf5Dfg0Zw')
+GOOGLE_GEMINI_API_KEY = os.getenv('GOOGLE_GEMINI_API_KEY')
 
 # Router
 image_generation_router = APIRouter(
