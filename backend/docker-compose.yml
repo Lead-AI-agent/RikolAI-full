@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  lead-call-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lead-call-api
+    ports:
+      - "8001:8001"
+    environment:
+      # OpenAI Configuration
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      
+      # Twilio Configuration
+      - TWILIO_ACCOUNT_SID=${TWILIO_ACCOUNT_SID}
+      - TWILIO_AUTH_TOKEN=${TWILIO_AUTH_TOKEN}
+      - TWILIO_PHONE_NUMBER=${TWILIO_PHONE_NUMBER}
+      
+      # Server Configuration
+      - NGROK_URL=${NGROK_URL}
+      - PORT=8001
+      
+      # OpenAI Realtime API Settings
+      - TEMPERATURE=${TEMPERATURE:-0.8}
+    volumes:
+      # Mount prompts directory for easy updates
+      - ./prompts:/app/prompts
+      # Mount .env file if you prefer
+      - ./.env:/app/.env
+    restart: unless-stopped
+    networks:
+      - lead-call-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8001/')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  lead-call-network:
+    driver: bridge
+
